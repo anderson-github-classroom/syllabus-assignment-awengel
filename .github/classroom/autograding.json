@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Question 1",
+      "setup": "sudo -H pip3 install pytest joblib && git clone https://github.com/anderson-github-classroom/csc-448-student ../csc-448-student",
+      "run": "pytest ../csc-448-student/tests/test_Syllabus.py::test_question_1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Question 2",
+      "setup": "",
+      "run": "pytest ../csc-448-student/tests/test_Syllabus.py::test_question_2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Question 3",
+      "setup": "",
+      "run": "pytest ../csc-448-student/tests/test_Syllabus.py::test_question_3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Question 4",
+      "setup": "",
+      "run": "pytest ../csc-448-student/tests/test_Syllabus.py::test_question_4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Question 5",
+      "setup": "",
+      "run": "pytest ../csc-448-student/tests/test_Syllabus.py::test_question_5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
